@@ -29,10 +29,26 @@ body {
 }
 
 .title {
-  background-color: orange;
-  margin-top: 0;
-  padding: 20px;
-  text-align: center;
+  background: orange;
+  color: brown;
+  height: 80px;
+  box-shadow: salmon;
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.title__text {
+  color: blueviolet;
+  flex: ;
+}
+
+.title__links {
+  color: brown;
+  padding: 1px;
 }
 
 .section {
