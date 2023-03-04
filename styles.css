@@ -1,19 +1,20 @@
-/* roboto-regular - latin */
+/* bebas-neue-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Roboto";
+  font-family: "Bebas Neue";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/roboto-v30-latin-regular.eot?#iefix")
+  src: url("../fonts/bebas-neue-v9-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/bebas-neue-v9-latin-regular.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/roboto-v30-latin-regular.woff")
+    /* IE6-IE8 */ url("../fonts/bebas-neue-v9-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/bebas-neue-v9-latin-regular.woff")
       format("woff"),
-    /* Modern Browsers */ url("../fonts/roboto-v30-latin-regular.ttf")
+    /* Modern Browsers */ url("../fonts/bebas-neue-v9-latin-regular.ttf")
       format("truetype"),
     /* Safari, Android, iOS */
-      url("../fonts/roboto-v30-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+      url("../fonts/bebas-neue-v9-latin-regular.svg#BebasNeue") format("svg"); /* Legacy iOS */
 }
 *,
 *::before,
@@ -22,33 +23,54 @@
 }
 
 body {
-  font-family: Roboto;
-  font-size: 1rem;
+  font-family: Bebas Neue;
+  font-size: 3rem;
   line-height: 1, 5;
   background-color: darkblue;
 }
 
+.wrapper {
+  width: 100px;
+  margin: 0 auto;
+}
+
+header {
+  height: 1px;
+  background-color: red;
+}
+
 .title {
-  background: darkblue;
-  color: brown;
-  height: 80px;
-  box-shadow: salmon;
-  padding: 10px;
+  background: lightblue;
+  height: 120px;
+  padding: 27px;
   position: fixed;
   top: 0px;
   right: 0px;
   left: 0px;
-  z-index: 1;
+  bottom: 0px;
+  z-index: 2;
 }
 
 .title__text {
   color: darkred;
-  flex: ;
+  padding: 0;
+  margin: 0px;
+  height: 0px;
+  top: 9px;
+  position: fixed;
+  z-index: 2;
 }
 
 .title__links {
-  color: brown;
-  padding: 1px;
+  color: darkred;
+  font-size: 2rem;
+  padding: 0;
+  margin: 30px;
+  height: 0px;
+  top: 0px;
+  right: 20px;
+  position: fixed;
+  z-index: 2;
 }
 
 .section {
