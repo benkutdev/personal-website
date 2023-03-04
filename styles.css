@@ -26,7 +26,7 @@ body {
   font-family: Bebas Neue;
   font-size: 3rem;
   line-height: 1, 5;
-  background-color: darkblue;
+  background-color: lightblue;
 }
 
 .wrapper {
@@ -89,7 +89,7 @@ header {
 }
 
 .section {
-  background-color: darkblue;
+  background-color: lightblue;
   padding: 20px;
   margin: 10px;
   border-left: solid 5px darkred;
@@ -99,8 +99,9 @@ header {
 }
 
 .footer {
-  background-color: lightgreen;
-  color: black;
+  background-color: darkred;
+  font-size: 27px;
+  color: lightblue;
   margin-top: 0;
   padding: 10px;
   text-align: center;
@@ -119,4 +120,8 @@ header {
   padding: 15px;
   border-radius: 10px;
   font-size: 18px;
+}
+
+.bridgephoto {
+  display: flex;
 }
