@@ -16,6 +16,7 @@
     /* Safari, Android, iOS */
       url("../fonts/bebas-neue-v9-latin-regular.svg#BebasNeue") format("svg"); /* Legacy iOS */
 }
+
 *,
 *::before,
 *::after {
@@ -29,9 +30,29 @@ body {
   background-color: lightblue;
 }
 
-header {
-  height: 1px;
-  background-color: red;
+a {
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-size: 2rem;
+  color: darkred;
+  padding: 0;
+  margin: 50px;
+  top: 0px;
+  left: 500px;
+  right: 20px;
+  z-index: 2;
+}
+
+.menu li:hover {
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  background-color: orange;
+  width: 140px;
+  height: 140px;
 }
 
 .title {
@@ -44,6 +65,11 @@ header {
   left: 0px;
   bottom: 0px;
   z-index: 2;
+}
+
+.title:hover {
+  background-color: orange;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }
 
 .title__text {
@@ -68,19 +94,13 @@ header {
   z-index: 3;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+h2 {
   color: darkred;
-  font-size: 1rem;
-  padding: 0;
-  margin: 30px;
-  height: 0px;
-  top: 0px;
-  right: 20px;
-  position: fixed;
-  z-index: 2;
+}
+
+h2:hover {
+  background-color: orange;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }
 
 .section {
@@ -93,17 +113,11 @@ header {
   border-bottom: solid 5px darkred;
 }
 
-.footer {
-  background-color: darkred;
-  font-size: 27px;
-  color: lightblue;
-  margin-top: 0;
-  padding: 10px;
-  text-align: center;
+.checkbox {
 }
 
-.bridgephoto {
-  display: flex;
+.checkbox1:hover {
+  color: orange;
 }
 
 .button {
@@ -114,6 +128,10 @@ header {
   margin-top: 0;
   padding: 10px;
   text-align: center;
+}
+
+.button:hover {
+  color: orange;
 }
 
 .goto-top {
@@ -129,7 +147,28 @@ header {
   align-items: center;
   justify-content: center;
   position: fixed;
-  left: 10px;
+  left: 7px;
   bottom: 50px;
   z-index: 1;
+}
+
+.goto-top:hover {
+  background-color: orange;
+}
+
+.footer {
+  background-color: darkred;
+  font-size: 27px;
+  color: lightblue;
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.telephonenumber {
+  color: white;
+}
+
+.telephonenumber:hover {
+  background-color: orange;
 }
