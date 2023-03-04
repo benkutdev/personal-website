@@ -125,3 +125,32 @@ header {
 .bridgephoto {
   display: flex;
 }
+
+.button {
+  background-color: darkred;
+  font-family: Bebas Neue;
+  font-size: 27px;
+  color: lightblue;
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.goto-top {
+  width: 55px;
+  height: 55px;
+  padding: 8px;
+  border-radius: 50%;
+  background: darkred;
+  color: white;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 10px;
+  bottom: 50px;
+  z-index: 2;
+}
