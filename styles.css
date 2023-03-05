@@ -36,12 +36,12 @@ a {
 
 .menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: wrap;
   justify-content: right;
   font-size: 2rem;
   color: darkred;
-  padding: 0;
-  margin: 50px;
+  padding: 0px;
+  margin: 30px;
   top: 0px;
   left: 500px;
   right: 20px;
