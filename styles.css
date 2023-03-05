@@ -27,7 +27,6 @@
 body {
   font-family: Bebas Neue;
   font-size: 3rem;
-  line-height: 1, 5;
 }
 
 a {
@@ -45,11 +44,10 @@ header {
   right: 0px;
   left: 0px;
   bottom: 0px;
-  z-index: 2;
-  text-decoration: none;
+  z-index: 1;
 }
 
-.header:hover {
+header:hover {
   background-color: orange;
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
   transition: all 0.3s ease 0s;
@@ -68,14 +66,17 @@ header {
 
 .header-subtitle {
   color: darkred;
-  font-size: 1rem;
+  font-size: 25px;
   padding: 0;
   margin: 0px;
   height: 0px;
   top: 100px;
-  left: 70px;
+  left: 29px;
   position: fixed;
-  z-index: 3;
+  z-index: 2;
+}
+
+.navbar {
 }
 
 .nav__links {
@@ -166,7 +167,7 @@ button:hover {
   font-size: 27px;
   color: lightblue;
   margin-top: 0;
-  padding: 10px;
+  padding: 0px;
   text-align: center;
 }
 
